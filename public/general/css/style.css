@@ -1,0 +1,66 @@
+
+/* Required height of parents of the Full Page Carousel for proper displaying carousel itself */
+html,
+body,
+.view {
+  height: 100%; }
+
+/* Full Page Carousel itself*/
+.carousel {
+  height: 100%; }
+  .carousel .carousel-inner {
+    height: 100%; }
+    .carousel .carousel-inner .carousel-item,
+    .carousel .carousel-inner .active {
+      height: 100%; }
+
+/* Navbar animation */
+.navbar {
+  background-color:#F06292; }
+  /*background-color: rgba(0, 0, 0, 0.2); }   Color transparente*/ 
+  
+
+.top-nav-collapse {
+  background-color: #F06292; }
+
+/* Adding color to the Navbar on mobile */
+@media only screen and (max-width: 768px) {
+  .navbar {
+    background-color: #F06292; } }
+
+/* Footer color for sake of consistency with Navbar */
+.page-footer {
+  background-color: #F06292; }
+
+.card-header{
+  background-color: #fff;
+}
+.card-title{
+  color: #757575;
+  text-align: center;
+  padding: 2px 10px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  font-family: "Roboto";
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  letter-spacing: 1px;
+  box-sizing: border-box;
+  font-weight: bold;
+}
+.btn{
+  background-color: #F06292;
+  text-align: center;
+}
+
+@font-face{
+  font-family: 'fuentePersonalizada';
+  src: url('BeautyBrightPersonalUse.ttf');
+  /*Letras descargadas de https://www.dafont.com/es/*/
+}
+#nombreMarca{
+    font-family:'fuentePersonalizada';
+    letter-spacing: 3.5px;
+}
